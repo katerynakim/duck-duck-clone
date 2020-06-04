@@ -6,6 +6,13 @@
 
  - The main idea of the project is to recreate [ webpage](https://duckduckgo.com/) using [already known w3 validation template](https://github.com/HackYourFutureBelgium/w3-validation-template).
  - The project should be developed as per following development strategy workflow [from-strategy-to-issues](https://github.com/HackYourFutureBelgium/from-strategy-to-issues).
+
+ **Collaborators** :
+
+ 1. [Ismail Tugan](https://github.com/ismailtugan)
+ 2. [Hazem Bittar](https://github.com/HazemBittar)
+ 3. [Kateryna Kim](https://github.com/katerynakim)
+
  
 **Objectives**
  - To learn how to collaborate using project board, PR ,branches and issues on GitHub.
