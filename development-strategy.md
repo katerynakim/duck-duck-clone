@@ -94,25 +94,30 @@ __full user story description__
 
   
 
-what branch(es) did you work on?
-
+- [x] developed on a branch called `box`
   
 
 ### HTML
+- [x] HTML SEMANTIC
+- [x] HTML LAYOUT
+- [x] HTML ATTRIBUTES
+- [x] HTML LINKS 
+- [x] HTML IMAGE
 
-  
-
-what did you change in the HTML and why?
-
-  
 
 ### CSS
-
+- [x] CSS SELECTORS 
+- [x] CSS LAYOUT
+- [x] CSS BOX LAYOUT
+- [x] CSS SYNTAX
   
+
 
 what did you change in the CSS and why?
 
 ## 3. Footer
+=======
+
 
 *assigned to Kateryna*
 *reviewed by Ismail*
