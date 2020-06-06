@@ -112,37 +112,39 @@ __full user story description__
 - [x] CSS SYNTAX
   
 
-## 2. Footer
+
+what did you change in the CSS and why?
+
+## 3. Footer
+=======
+
 
 *assigned to Kateryna*
 *reviewed by Ismail*
   
 
-__full user story description__
+Heading+paragraph informs User about privacy protection.
 
   
 
-### Repo
+### Repository
 
-  
-
-what branch(es) did you work on?
-
-  
+- [ ] developed on a branch called `footer`
 
 ### HTML
 
-  
-
-what did you change in the HTML and why?
-
-  
+- [x] added footer element
+- [x] added header
+- [x] added paragraph
+- [x] added roundish border space
+- [x] added button
+- [x] added svg image
 
 ### CSS
 
-  
+- [x] styled elements in the HTML part
 
-what did you change in the CSS and why?
+---
   
 
 ## Finishing Touches
