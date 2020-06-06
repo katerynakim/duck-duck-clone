@@ -52,6 +52,9 @@
     border-radius: 12px;
     font-weight: 600;
     cursor:pointer;
+    position: relative;
+    left:196px;
+
 
        }
        .DuckDuckGo:hover {opacity: 1}
