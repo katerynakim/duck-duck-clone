@@ -60,3 +60,158 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+.curvy{
+    background-color:  #E37151;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+    align-items: center;
+   padding: 6em 0;
+    color: #fff;
+
+}
+.privacy1{
+    background-color:  #E37151;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4em 0;
+    color: #fff;
+    line-height: 27px;}
+
+    .privacy1 h3 {
+        font-size: 44px;
+        line-height: 48px;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    } 
+    
+    .privacy1 p {
+        font-size: 17px;
+    line-height: 20px;
+    padding-top: .25em;
+    padding-bottom: .25em;
+
+    }
+
+   
+
+    .DuckDuckGo{
+    
+        background-color: #612A19;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.3s;
+    margin-top: 25px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor:pointer;
+
+       }
+       .DuckDuckGo:hover {opacity: 1}
+
+       .monster-image {
+        background-color: #E37151;
+     
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
