@@ -113,7 +113,6 @@ __full user story description__
   
 
 
-what did you change in the CSS and why?
 
 ## 3. Footer
 =======
