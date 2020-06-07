@@ -81,7 +81,7 @@ margin: auto;
 transform: translateY(-25%);
 visibility: visible;
 z-index: -1;
-}
+margin:auto;}
 
 
 /* box-section */
@@ -176,8 +176,8 @@ display: flex;
 .myButton1 {
 
   background:url(./images/megaphone-24.png) ;
-  height: 24px;
-  width: 24px;
+  height: 30px;
+  width: 30px;
   
 }
 
@@ -193,7 +193,7 @@ display: flex;
   position: relative;
     
     margin-left: 85%;
-    bottom:  16px;
+    bottom:  20px;
 }
 
 .dropdown-content {
@@ -404,7 +404,7 @@ a:hover
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
   background-color: transparent;
-  margin-left: 68.7%;
+  margin-left: 65%;
   position: relative;
   bottom:44px;
 
