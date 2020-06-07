@@ -1,3 +1,4 @@
+
 /*FOOTER*/
 
 .curvy{
@@ -53,7 +54,7 @@
     font-weight: 600;
     cursor:pointer;
     position: relative;
-    left:10px;
+    right:15px;
 
 
        }
@@ -66,21 +67,37 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
 
-
-
-
-
-
-
+    body {
+      background-color: #f7f7f7;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 100%;
+  }
+footer{position: absolute;
+bottom: auto;
+margin: auto;
+transform: translateY(-25%);
+visibility: visible;
+z-index: -1;
+}
 
 
 /* box-section */
 
     .info__title {font-size: 16px;
-    font-weight: bolder;}
+    font-weight: bolder;
+  margin-top: 1PX;
+margin-right: 55px;
+bottom: 40px;
+position: relative;}
                      
+#box-box{position: relative;
+bottom: 70px;
+margin-top: 40px;
+margin-right: 60px;}
+
     .content-info {
     text-align: center;
     order: 4;
@@ -90,6 +107,7 @@
     .info__item {
     box-sizing: border-box;
     width: 330px;
+
     min-height: 340px;
     display: flex;
     flex-direction: column;
@@ -137,10 +155,10 @@
     width: 100%
 }
 
-
+**************
 
 body {
-    background-color: rgb(247, 247 ,247);
+    background-color: rgb(148, 146, 146);
     overflow-x: hidden;
 }
 nav {
@@ -157,10 +175,10 @@ display: flex;
 
 .myButton1 {
 
-  background:url(https://cdn.glitch.com/1396458b-2731-4c6d-aef1-a4e4d2de5d25%2Fmegaphone-24.png?v=1591386818097) no-repeat;
+  background:url(./images/megaphone-24.png) ;
   height: 24px;
   width: 24px;
-
+  
 }
 
 .myButton2 {
@@ -173,7 +191,9 @@ display: flex;
 
 .dropdown {
   position: relative;
-  display: inline-block;
+    
+    margin-left: 85%;
+    bottom:  16px;
 }
 
 .dropdown-content {
@@ -240,13 +260,12 @@ a:hover
   cursor: pointer;
   
   opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
+  z-index: 2; 
   -webkit-touch-callout: none;
 }
 
 /*
- * Just a quick hamburger
+ * 
  */
 #menuToggle span
 {
@@ -278,10 +297,7 @@ a:hover
   transform-origin: 0% 100%;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+
 #menuToggle input:checked ~ span
 {
   opacity: 1;
@@ -289,32 +305,25 @@ a:hover
   background: #232323;
 }
 
-/*
- * But let's hide the middle one.
- */
+
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
+
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   opacity: 1;
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
+
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 20px;
   margin: -100px 0 0 0;
   padding: 50px;
   padding-top: 125px;
@@ -323,7 +332,6 @@ a:hover
   background: white;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
   transform: translate(100%, 0);
@@ -358,58 +366,59 @@ a:hover
 
 
 .photo--duck {
-    width: 200px;
-    height: 162px;
-    padding-top: 14px;
-    padding-bottom: 40px;
-    align-items: center;
+    
     position: relative;
-    margin:auto;
+    margin:20px;
+    margin-left: 40%;
     
 }
 
+*************
 
-
-.search--box {
-    width: 1248px;
-    height: 45.953px;
-    position: relative;
-    margin: auto;
-    background-color: rgb(247, 247 ,247);
-
+#search {
+  grid-area: search;
+  display: inline-flex;
+  align-self: center;
 }
 
-#search--box--in  {
-    width: 589.141px;
-    height: 45.953px;
-    position: absolute;
-    margin: auto;
-    margin-left: 16.416px;
-    margin-right: 57.456px;
-    font-family: DDG_Proximova;
-    font-size: 18.0576px;
-    border-radius: 3px;
+#searchbar {
+  width: 50%;
+  height: 40px;
+  border:1px solid rgba(170, 170, 170, 0.5);
+  border-right: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-left: 22%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 1.1em;
+    font-weight: normal;
+    padding-left: 20px;
+    box-shadow: 0 2.5px 15px 0 rgba(0, 0, 0, 0.10);
 }
+#search-btn {
+  width: 5%;
+  height: 44px;
+  border: none;
+  border:1px solid rgba(170, 170, 170, 0.5);
+  border-left: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: transparent;
+  margin-left: 68.7%;
+  position: relative;
+  bottom:44px;
 
-.search__button {
-    margin-left: 620px;
-    width: 26px;
-    height: 45.953px;
-   
 }
-
-form {
-    width: 665px;
-    height: 45.953px;
-    position: relative;
-    margin: auto;
+#search-btn:hover {
+  background-color: rgb(29, 206, 29);
 }
+*****************************
 
 /*badge link content*/
 
 .badge--link--content{
     width: 1060px;
-    height: 204px;
+    height: auto;
     padding-left: 40px;
     padding-right: 40px;
     margin-top: 30px;
@@ -417,7 +426,7 @@ form {
     margin-right: 61px;
     margin-left: 61px;
     position: relative;
-    margin:auto;
+    top: 40PX;
     text-align: center;
 
 }
@@ -425,24 +434,38 @@ form {
 .badge--link--title {
     padding-bottom: 5px;
     font-family:DDG_Proximova ;
-    line-height: 44px;
+    line-height: 5px;
     text-align: center;
     font-size: 32px;
+    position: relative;
+    bottom: 30PX;
+    margin-right: 50px;
+    
     
 }
 
 .badge--link--subtitle{
     font-size: 17px;
     font-family:DDG_Proximova ;
+    position: relative;
+    bottom: 40px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 50px;
+
 }
 
 .badge--link--bullet {
     align-items: center;
     display: flex;
     line-height: 28px;
-    margin-right: 22px;
+    margin-right: 40px;
     list-style-type: none;
     position: relative;
+    margin-bottom: 70px;
+    right: 25px;
+    bottom: 60px;
+    font-weight: bold;
 }
 
 ol {
@@ -459,8 +482,9 @@ ol {
   margin: auto;
   justify-content: center;
   display: flex;
-  
   margin-top: -40px;
+  bottom: 70px;
+  margin-right: 60px;
 }
 
 .add--button--google1{
@@ -478,10 +502,12 @@ line-height: 23px;
 
 .rated--stars {
 margin-top: 16px;
-margin-left: 165.563px;
-margin-right: 165.563px;
+
+margin-right: 65px;
 font-size: 12px;
   font-family:DDG_ProximaNova ;
+  bottom: 77px;
+  position: relative;
 }
 
 .badge-link__rating {
