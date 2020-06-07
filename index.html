@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>DuckDuckGo Clone</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./style.css">
+  <!-- Leave this here!  It renders the review buttons  -->
+  <script src='./evaluation/init.js'></script>
+</head>
+
+<body>
+  <header>
+      
+
+    <nav role='navigation'>
+      <div class="dropdown">
+      <button class="myButton1" ></button>
+      <button class="myButton2" ></button>
+      <div class="dropdown-content">
+        <a href="https://twitter.com/duckduckgo"><img src="https://cdn.glitch.com/1396458b-2731-4c6d-aef1-a4e4d2de5d25%2Ficons8-twitter-48.png?v=1591398128743" alt="image" >Twitter</a>
+        <a href="https://www.reddit.com/r/duckduckgo"><img src="https://cdn.glitch.com/1396458b-2731-4c6d-aef1-a4e4d2de5d25%2Ficonfinder_social-36_1591892.png?v=1591398008922" alt="image" >Reddit</a>
+        <a href="https://spreadprivacy.com/"><img src="https://cdn.glitch.com/1396458b-2731-4c6d-aef1-a4e4d2de5d25%2F197-1971165_blog-icon-iso-blogging-icon-hd-png-download.png?v=1591398424812" alt="image" >Blog</a>
+        <a href="https://duckduckgo.com/newsletter"><img src="https://cdn.glitch.com/1396458b-2731-4c6d-aef1-a4e4d2de5d25%2F43643245-f3eeadf0-972a-11e8-84e3-10b7be907bcf.png?v=1591398075402" alt="image" >Newsletter</a>
+        </div>
+      </div>
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+  <ul id="menu">
+    <li><strong>SETTINGS</strong></li>
+    <li>Themes</li>
+    <li>Other Settings</li>
+    <li>!Bang Search Shortcuts</li>
+    <li><strong>PRIVACY ESSENTIALS</strong></li>
+    <li>Private Search</li>
+    <li>App and Extension</li>
+    <li><strong>WHY PRIVACY</strong></li>
+    <li>Privacy Blog</li>
+    <li>Privacy Crash Cours</li>
+    <li>Help Spread Privacy</li>
+    <li><strong>WHO WE ARE</strong></li>
+    <li>Abou Us </li>
+    <li>Privacy Policy</li>
+    <li>Careers</li>
+    <li>Press Kit</li>
+    <li><strong>KEEP IN TOUCH</strong></li>
+    <li>Twitter</li>
+   <li>Reddit</li>
+    <li>Help</li>
+
+    
+  </ul>
+</div>
+</nav>
+
+  </header>
+  
+  <div class="photo--duck" >
+    <img src="./images/duckduckgo11.jpg" id="duck--photo" alt="image" > 
+  </div>
+
+  <div class="search--box">
+    <form>
+    <input type="text" placeholder="Search the web without being tracked" id="search--box--in" name="input"> 
+      <input class="search__button" type="image" src="./images/search-icon.png" alt="Submit" width="26" height="46">
+  </form>
+  </div>
+
+  <div class="badge--link--content">
+    <h1 class="badge--link--title">Tired of being tracked online? We can help.</h1>
+    <p class="badge--link--subtitle">Get seamless privacy protection on your browser for free with one download:</p>
+    <ol class="badge--links--bullets">
+      <li class="badge--link--bullet"><svg class="check badge-link__bullet-check" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="8" fill="#678FFF"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M4.45723 7.54277C4.0667 7.9333 4.0667 8.56646 4.45723 8.95698L5.88758 10.3873L5.88747 10.3875L6.5432 11.0432C6.95322 11.4532 7.62489 11.4297 8.00519 10.992L11.8251 6.59531C12.1687 6.19989 12.1479 5.60609 11.7775 5.23569C11.3684 4.82668 10.6984 4.85016 10.3191 5.28681L7.20253 8.87386L5.87144 7.54277C5.48092 7.15225 4.84775 7.15225 4.45723 7.54277Z" fill="white"></path></svg><span> Private Search</span></li>
+      <li class="badge--link--bullet"><svg class="check badge-link__bullet-check" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="8" fill="#678FFF"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M4.45723 7.54277C4.0667 7.9333 4.0667 8.56646 4.45723 8.95698L5.88758 10.3873L5.88747 10.3875L6.5432 11.0432C6.95322 11.4532 7.62489 11.4297 8.00519 10.992L11.8251 6.59531C12.1687 6.19989 12.1479 5.60609 11.7775 5.23569C11.3684 4.82668 10.6984 4.85016 10.3191 5.28681L7.20253 8.87386L5.87144 7.54277C5.48092 7.15225 4.84775 7.15225 4.45723 7.54277Z" fill="white"></path></svg><span> Tracker Blocking</span></li>
+      <li class="badge--link--bullet"><svg class="check badge-link__bullet-check" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="8" fill="#678FFF"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M4.45723 7.54277C4.0667 7.9333 4.0667 8.56646 4.45723 8.95698L5.88758 10.3873L5.88747 10.3875L6.5432 11.0432C6.95322 11.4532 7.62489 11.4297 8.00519 10.992L11.8251 6.59531C12.1687 6.19989 12.1479 5.60609 11.7775 5.23569C11.3684 4.82668 10.6984 4.85016 10.3191 5.28681L7.20253 8.87386L5.87144 7.54277C5.48092 7.15225 4.84775 7.15225 4.45723 7.54277Z" fill="white"></path></svg><span> Site Encryption</span></li>
+
+    </ol>
+
+   
+  </div>
+
+  <div class="add--button--google">
+    <button class="add--button--google1" >Add DuckDuckGo to Chrome</button>
+  </div>
+  <div class="rated--stars" >
+  <a href="https://chrome.google.com/webstore/detail/bkdgflcldnnnapblkhphbgpggdiikppg/reviews" target="_blank" class="badge-link__rating" title="Average rating: 4.4 out of 5"><p class="badge-link__rating-wrap"><span class="badge-link__rating__star">★</span><span class="badge-link__rating__star">★</span><span class="badge-link__rating__star">★</span><span class="badge-link__rating__star">★</span><span class="badge-link__rating__star--empty badge-link__rating__star--third">★</span></p><span>Rated 4.4/5</span></a>
+</div>
+<!-- box-section //-->
+ 
+ <section>
+   
+          <div class="content-info" lang="en"><div class="info__title">Privacy Protection For Any Device</div>
+  <div class="info__items ">  <div class="items-wrap"><div class="info__item">
+    <img class="item__icon" src="https://duckduckgo.com/assets/add-to-browser/cppm/laptop.svg" 
+    alt="a laptop with a lock on the screen">
+    <div class="item__title">Privacy for Chrome</div>
+    <div class="item__subtitle">Browse as usual, and we’ll take care of the rest. We bundled
+      our search engine,tracker blocker, and encryption enforcer into one
+       <a href="https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?utm_source=inline-install-disabled">Chrome Extension</a>. </div></div>
+
+
+       <div class="info__item"><img class="item__icon" 
+        src="https://duckduckgo.com/assets/home/landing/icons/search.svg" 
+        alt="purple magnifying glass ">
+        <div class="item__title">Private Search Engine</div><div class="item__subtitle">
+          Search privately with our app or extension, add private web search to your favorite browser, or search directly at 
+        <a href="https://duckduckgo.com/"> duckduckgo.com </a>. </div></div>
+
+
+          <div class="info__item"><img class="item__icon" src="https://duckduckgo.com/assets/add-to-browser/cppm/mobile.svg" 
+            alt="a mobile phone "><div class="item__title">Privacy Browser App</div>
+            <div class="item__subtitle">Our private browser for mobile comes equipped with our search engine, 
+              tracker blocker, encryption enforcer, and more. Available on <a href="https://duckduckgo.com/app"> iOS &amp; Android</a>. </div>
+          </div>
+      
+      </section>
+              
+<footer>
+
+  <div class="curvy">
+  </div>
+      
+  <section>
+  
+    <div class="privacy1">
+      <h3>We don’t store your <br>
+        personal information. Ever.</h3>
+  
+        <p>Our privacy policy is simple: we don’t collect <br>
+        or share any of your personal information.</p>
+  <form action="https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg" method="get">
+  </form>
+      <button class="DuckDuckGo">Add DuckDuckGo to Chrome</button>  
+    </div>
+  </section>
+  
+  
+   <div class="monster-image">
+    <img src="./images/monster.svg" alt="monster">
+     </div>
+        
+     </footer>
+  
+  
+</body>
+
+</html>
