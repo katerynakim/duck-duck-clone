@@ -155,7 +155,6 @@ margin-right: 60px;}
     width: 100%
 }
 
-**************
 
 body {
     background-color: rgb(148, 146, 146);
@@ -244,7 +243,7 @@ a:hover
   
   z-index: 1;
   
-  -webkit-user-select: none;
+  
   user-select: none;
 }
 
@@ -261,7 +260,7 @@ a:hover
   
   opacity: 0; /* hide this */
   z-index: 2; 
-  -webkit-touch-callout: none;
+  
 }
 
 /*
@@ -331,7 +330,7 @@ a:hover
   
   background: white;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
+ 
   
   transform-origin: 0% 0%;
   transform: translate(100%, 0);
@@ -373,7 +372,6 @@ a:hover
     
 }
 
-*************
 
 #search {
   grid-area: search;
@@ -389,7 +387,7 @@ a:hover
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
   margin-left: 22%;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  
     font-size: 1.1em;
     font-weight: normal;
     padding-left: 20px;
@@ -412,7 +410,6 @@ a:hover
 #search-btn:hover {
   background-color: rgb(29, 206, 29);
 }
-*****************************
 
 /*badge link content*/
 
