@@ -1,14 +1,4 @@
 /*FOOTER*/
-footer
-{position: relative;
-bottom: 0;
-margin: auto;
-transform: translateY(-25%);
-visibility: visible;
-z-index: -1;
-margin-bottom: auto;
-}
-
 .curvy{
     background-color:  #E37151;
     border-top-left-radius: 90%;
@@ -75,7 +65,6 @@ margin-bottom: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-           bottom:0;
         
     }
 
@@ -84,6 +73,15 @@ margin-bottom: auto;
       font-family: Arial, Helvetica, sans-serif;
       width: 100%;
   }
+footer{position: absolute;
+bottom: auto;
+margin: auto;
+transform: translateY(-25%);
+visibility: visible;
+z-index: -1;
+margin-: 5%;
+}
+
 
 
 
