@@ -155,8 +155,7 @@ margin-right: 60px;}
     width: 100%
 }
 
-**************
-
+/** TOP SECTION **/
 body {
     background-color: rgb(148, 146, 146);
     overflow-x: hidden;
@@ -244,7 +243,6 @@ a:hover
   
   z-index: 1;
   
-  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -259,14 +257,12 @@ a:hover
   
   cursor: pointer;
   
-  opacity: 0; /* hide this */
+  opacity: 0; 
   z-index: 2; 
-  -webkit-touch-callout: none;
+  
 }
 
-/*
- * 
- */
+
 #menuToggle span
 {
   display: block;
@@ -331,8 +327,6 @@ a:hover
   
   background: white;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  
   transform-origin: 0% 0%;
   transform: translate(100%, 0);
   
@@ -346,9 +340,7 @@ a:hover
   font-family: DDG_P;
 }
 
-/*
- * And let's fade it in from the left
- */
+
 #menuToggle input:checked ~ ul
 {
   transform: none;
@@ -373,7 +365,6 @@ a:hover
     
 }
 
-*************
 
 #search {
   grid-area: search;
@@ -389,7 +380,6 @@ a:hover
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
   margin-left: 22%;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
     font-size: 1.1em;
     font-weight: normal;
     padding-left: 20px;
@@ -412,7 +402,6 @@ a:hover
 #search-btn:hover {
   background-color: rgb(29, 206, 29);
 }
-*****************************
 
 /*badge link content*/
 
