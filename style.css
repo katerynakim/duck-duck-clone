@@ -76,10 +76,10 @@
 footer{position: absolute;
 bottom: auto;
 margin: auto;
-transform: translateY(-25%);
+transform: translateY(-50%);
 visibility: visible;
 z-index: -1;
-margin-: 5%;
+
 }
 
 
